@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Set Default Back</title>
+</head>
+<body>
+
+
+<script src="jscolor.js"></script>
+
+
+<p>
+    Small RGBA picker:
+    <input data-jscolor="{width:120}" id="colorcode" onchange="myFunction()" value="rgba(44,175,254,0.5)">
+</p>
+
+
+
+
+
+</body>
+</html>
+<script>
+function myFunction() {
+  document.body.style.backgroundColor = colorcode.value;
+}
+</script>
